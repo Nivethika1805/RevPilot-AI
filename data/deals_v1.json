@@ -1,0 +1,32 @@
+[
+  {
+    "deal_code": "DL-1001",
+    "name": "Global Fleet Intelligence Expansion",
+    "account_name": "Northwind Logistics Demo",
+    "value": 240000.0,
+    "stage": "Negotiation",
+    "status": "open",
+    "close_date": "2026-11-07",
+    "tracks_next_steps": true
+  },
+  {
+    "deal_code": "DL-1002",
+    "name": "Clinical Trial Workflow Automation",
+    "account_name": "Apex Global BioTech",
+    "value": 175000.0,
+    "stage": "Proposal",
+    "status": "open",
+    "close_date": "2026-12-04",
+    "tracks_next_steps": true
+  },
+  {
+    "deal_code": "DL-1003",
+    "name": "Enterprise Telemetry Infrastructure",
+    "account_name": "Acme Precision Cloud",
+    "value": 110000.0,
+    "stage": "Proposal",
+    "status": "open",
+    "close_date": "2026-11-24",
+    "tracks_next_steps": true
+  }
+]

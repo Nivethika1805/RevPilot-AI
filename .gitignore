@@ -1,0 +1,50 @@
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/.venv/
+.venv/
+venv/
+ENV/
+env/
+
+# Databases
+*.db
+*.db-journal
+*.sqlite3
+backend/revpilot.db
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.vitest/
+
+# Node & Frontend
+frontend/node_modules/
+node_modules/
+frontend/dist/
+dist/
+.npm/
+
+# Environment Variables & Secrets
+.env
+!.env.example
+backend/.env
+frontend/.env
+!.env
+
+# Temporary Exports (committed examples in exports/examples are preserved)
+exports/runtime/
+*.zip
+!exports/examples/**/*.zip
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

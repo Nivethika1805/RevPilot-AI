@@ -1,0 +1,42 @@
+[
+  {
+    "deal_code": "DL-1001",
+    "name": "Global Fleet Intelligence Expansion",
+    "account_name": "Northwind Logistics Demo",
+    "value": 240000.0,
+    "stage": "Negotiation",
+    "status": "open",
+    "close_date": "2026-11-07",
+    "tracks_next_steps": true
+  },
+  {
+    "deal_code": "DL-1003",
+    "name": "Enterprise Telemetry Infrastructure",
+    "account_name": "Acme Precision Cloud",
+    "value": 125000.0,
+    "stage": "Proposal",
+    "status": "open",
+    "close_date": "2026-11-24",
+    "tracks_next_steps": true
+  },
+  {
+    "deal_code": "DL-1005",
+    "name": "Hospital Network EHR Bridge",
+    "account_name": "Starlight Health Network",
+    "value": 195000.0,
+    "stage": "Legal/Review",
+    "status": "open",
+    "close_date": "2026-11-09",
+    "tracks_next_steps": true
+  },
+  {
+    "deal_code": "DL-1099",
+    "name": "Cross-Border Supply Chain AI",
+    "account_name": "Beacon Freight Solutions",
+    "value": 165000.0,
+    "stage": "Discovery",
+    "status": "open",
+    "close_date": "2026-12-15",
+    "tracks_next_steps": true
+  }
+]

@@ -1,0 +1,29 @@
+# Production Dockerfile for RevPilot AI Backend
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy dependency definition
+COPY backend/requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy backend source code
+COPY backend/ .
+COPY data/ /app/data/
+
+# Set environment defaults
+ENV PYTHONUNBUFFERED=1
+ENV DEMO_MODE=true
+ENV AS_OF_DATE=2026-10-20T00:00:00Z
+ENV DATABASE_URL=sqlite:///./revpilot.db
+
+EXPOSE 8000
+
+# Entrypoint script runs migrations and seed before launching uvicorn
+CMD ["sh", "-c", "alembic upgrade head && python run_seed.py && uvicorn app.main:app --host 0.0.0.0 --port 8000"]

@@ -1,0 +1,41 @@
+source_record_ref,deal_code,type,occurred_at,summary,customer_intent,sentiment_label,routing_status,urgency
+CALL-2043,DL-1001,call,2026-09-29T00:00:00,Commercial review call with Northwind VP of Operations.,Evaluate solution capabilities and commercial alignment,positive,recommended,critical
+EMAIL-2044,DL-1001,email,2026-10-01T00:00:00,Urgent pricing redline email from Northwind Finance.,Evaluate solution capabilities and commercial alignment,negative,recommended,critical
+CALL-2045,DL-1005,call,2026-10-10T00:00:00,Ambiguous contract terms discussion with Starlight Counsel.,Evaluate solution capabilities and commercial alignment,neutral,unassigned_review,high
+CALL-2046,DL-1004,call,2026-10-14T00:00:00,Architecture deep dive on Vanguard security requirements.,Evaluate solution capabilities and commercial alignment,neutral,recommended,medium
+CALL-2047,DL-1006,call,2026-10-12T00:00:00,Urgent customer commitment on CyberShield renewal.,Evaluate solution capabilities and commercial alignment,neutral,unassigned_review,critical
+NOTE-3005,DL-1003,meeting,2026-10-12T00:00:00,Alignment discussion (meeting) regarding Enterprise Telemetry Infrastructure.,Evaluate solution capabilities and commercial alignment,neutral,recommended,high
+NOTE-3006,DL-1004,call,2026-10-11T00:00:00,Alignment discussion (call) regarding Securities Data Compliance Suite.,Evaluate solution capabilities and commercial alignment,neutral,recommended,medium
+NOTE-3007,DL-1005,meeting,2026-10-10T00:00:00,Alignment discussion (meeting) regarding Hospital Network EHR Bridge.,Evaluate solution capabilities and commercial alignment,neutral,recommended,medium
+NOTE-3008,DL-1006,call,2026-10-09T00:00:00,Alignment discussion (call) regarding Zero-Trust Perimeter Annual Renewal.,Evaluate solution capabilities and commercial alignment,neutral,unassigned_review,medium
+NOTE-3009,DL-1007,meeting,2026-10-08T00:00:00,Alignment discussion (meeting) regarding Store Inventory Tracking POC.,Evaluate solution capabilities and commercial alignment,neutral,recommended,medium
+NOTE-3010,DL-1008,call,2026-10-07T00:00:00,Alignment discussion (call) regarding Grid Optimization Phase 2.,Evaluate solution capabilities and commercial alignment,neutral,recommended,high
+NOTE-3011,DL-1009,meeting,2026-10-06T00:00:00,Alignment discussion (meeting) regarding Smart Factory Predictive Maintenance.,Evaluate solution capabilities and commercial alignment,neutral,unassigned_review,medium
+NOTE-3012,DL-1010,call,2026-10-05T00:00:00,Alignment discussion (call) regarding Video Ingestion Platform Upgrade.,Evaluate solution capabilities and commercial alignment,neutral,recommended,medium
+NOTE-3013,DL-1011,meeting,2026-10-04T00:00:00,Alignment discussion (meeting) regarding Edge CDN Gateway Deployment.,Evaluate solution capabilities and commercial alignment,neutral,recommended,medium
+NOTE-3014,DL-1012,call,2026-10-03T00:00:00,Alignment discussion (call) regarding Port Logistics Telematics Engine.,Evaluate solution capabilities and commercial alignment,neutral,unassigned_review,medium
+NOTE-3015,DL-1013,meeting,2026-10-02T00:00:00,Alignment discussion (meeting) regarding Cold Chain Sensor Expansion.,Evaluate solution capabilities and commercial alignment,neutral,recommended,high
+NOTE-3016,DL-1014,call,2026-10-01T00:00:00,Alignment discussion (call) regarding Drug Discovery Pipeline Compute.,Evaluate solution capabilities and commercial alignment,neutral,recommended,medium
+NOTE-3017,DL-1015,meeting,2026-09-30T00:00:00,Alignment discussion (meeting) regarding Real-time Telemetry Gateway.,Evaluate solution capabilities and commercial alignment,neutral,unassigned_review,medium
+NOTE-3018,DL-1016,call,2026-09-29T00:00:00,Alignment discussion (call) regarding Mortgage Processing Engine.,Evaluate solution capabilities and commercial alignment,neutral,recommended,medium
+NOTE-3019,DL-1017,meeting,2026-09-28T00:00:00,Alignment discussion (meeting) regarding Patient Portal Identity Verification.,Evaluate solution capabilities and commercial alignment,neutral,recommended,medium
+NOTE-3020,DL-1018,call,2026-10-17T00:00:00,Alignment discussion (call) regarding Threat Hunting Appliance Pilot.,Evaluate solution capabilities and commercial alignment,neutral,recommended,high
+NOTE-3021,DL-1019,meeting,2026-10-16T00:00:00,Alignment discussion (meeting) regarding Point-of-Sale Integration Hub.,Evaluate solution capabilities and commercial alignment,neutral,recommended,medium
+NOTE-3022,DL-1020,call,2026-10-15T00:00:00,Alignment discussion (call) regarding Wind Turbine Diagnostic Feeds.,Evaluate solution capabilities and commercial alignment,neutral,recommended,medium
+NOTE-3023,DL-1003,meeting,2026-10-14T00:00:00,Alignment discussion (meeting) regarding Enterprise Telemetry Infrastructure.,Evaluate solution capabilities and commercial alignment,neutral,unassigned_review,medium
+NOTE-3024,DL-1004,call,2026-10-13T00:00:00,Alignment discussion (call) regarding Securities Data Compliance Suite.,Evaluate solution capabilities and commercial alignment,neutral,recommended,medium
+NOTE-3025,DL-1005,meeting,2026-10-12T00:00:00,Alignment discussion (meeting) regarding Hospital Network EHR Bridge.,Evaluate solution capabilities and commercial alignment,neutral,recommended,high
+NOTE-3026,DL-1006,call,2026-10-11T00:00:00,Alignment discussion (call) regarding Zero-Trust Perimeter Annual Renewal.,Evaluate solution capabilities and commercial alignment,neutral,unassigned_review,medium
+NOTE-3027,DL-1007,meeting,2026-10-10T00:00:00,Alignment discussion (meeting) regarding Store Inventory Tracking POC.,Evaluate solution capabilities and commercial alignment,neutral,recommended,medium
+NOTE-3028,DL-1008,call,2026-10-09T00:00:00,Alignment discussion (call) regarding Grid Optimization Phase 2.,Evaluate solution capabilities and commercial alignment,neutral,recommended,medium
+NOTE-3029,DL-1009,meeting,2026-10-08T00:00:00,Alignment discussion (meeting) regarding Smart Factory Predictive Maintenance.,Evaluate solution capabilities and commercial alignment,neutral,unassigned_review,medium
+NOTE-3030,DL-1010,call,2026-10-07T00:00:00,Alignment discussion (call) regarding Video Ingestion Platform Upgrade.,Evaluate solution capabilities and commercial alignment,neutral,recommended,high
+NOTE-3031,DL-1011,meeting,2026-10-06T00:00:00,Alignment discussion (meeting) regarding Edge CDN Gateway Deployment.,Evaluate solution capabilities and commercial alignment,neutral,recommended,medium
+NOTE-3032,DL-1012,call,2026-10-05T00:00:00,Alignment discussion (call) regarding Port Logistics Telematics Engine.,Evaluate solution capabilities and commercial alignment,neutral,unassigned_review,medium
+NOTE-3033,DL-1013,meeting,2026-10-04T00:00:00,Alignment discussion (meeting) regarding Cold Chain Sensor Expansion.,Evaluate solution capabilities and commercial alignment,neutral,recommended,medium
+NOTE-3034,DL-1014,call,2026-10-03T00:00:00,Alignment discussion (call) regarding Drug Discovery Pipeline Compute.,Evaluate solution capabilities and commercial alignment,neutral,recommended,medium
+NOTE-3035,DL-1015,meeting,2026-10-02T00:00:00,Alignment discussion (meeting) regarding Real-time Telemetry Gateway.,Evaluate solution capabilities and commercial alignment,neutral,recommended,high
+NOTE-3036,DL-1016,call,2026-10-01T00:00:00,Alignment discussion (call) regarding Mortgage Processing Engine.,Evaluate solution capabilities and commercial alignment,neutral,recommended,medium
+NOTE-3037,DL-1017,meeting,2026-09-30T00:00:00,Alignment discussion (meeting) regarding Patient Portal Identity Verification.,Evaluate solution capabilities and commercial alignment,neutral,recommended,medium
+NOTE-3038,DL-1018,call,2026-09-29T00:00:00,Alignment discussion (call) regarding Threat Hunting Appliance Pilot.,Evaluate solution capabilities and commercial alignment,neutral,unassigned_review,medium
+NOTE-3039,DL-1019,meeting,2026-09-28T00:00:00,Alignment discussion (meeting) regarding Point-of-Sale Integration Hub.,Evaluate solution capabilities and commercial alignment,neutral,recommended,medium

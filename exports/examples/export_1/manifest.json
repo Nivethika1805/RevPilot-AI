@@ -1,0 +1,57 @@
+{
+  "export_id": 1,
+  "exported_at": "2026-10-22T20:03:16.985349+00:00",
+  "format": "csv",
+  "entities": [
+    "deals",
+    "conversations",
+    "risk_assessments",
+    "follow_up_actions",
+    "audit_history"
+  ],
+  "applied_filters": null,
+  "app_version": "1.0.0",
+  "schema_version": "1.0.0",
+  "as_of": "2026-10-20T00:00:00+00:00",
+  "synthetic_data": true,
+  "total_records": 134,
+  "validation_status": "verified",
+  "files": [
+    {
+      "file_name": "deals.csv",
+      "entity": "deals",
+      "record_count": 20,
+      "sha256": "eb98b68f50bde27f3bee09570b0c551299aa64feaabb33ee40b6170adb066e54",
+      "size_bytes": 3100
+    },
+    {
+      "file_name": "conversations.csv",
+      "entity": "conversations",
+      "record_count": 40,
+      "sha256": "e8c0bbea09119870fa898dd4a0f3fa9ed319874af86dcc551f44d96b9041511a",
+      "size_bytes": 8094
+    },
+    {
+      "file_name": "risk_assessments.csv",
+      "entity": "risk_assessments",
+      "record_count": 20,
+      "sha256": "d21fc217e3f49981b82de389b580492556e77ec4b916b17c50a3fbcdf2d89da8",
+      "size_bytes": 1187
+    },
+    {
+      "file_name": "follow_up_actions.csv",
+      "entity": "follow_up_actions",
+      "record_count": 54,
+      "sha256": "d5e85642d8f10fc87107fc406a2ecb9cfb0038b0e025e56ed2b3c37a50e9aa2d",
+      "size_bytes": 10317
+    },
+    {
+      "file_name": "audit_history.csv",
+      "entity": "audit_history",
+      "record_count": 0,
+      "sha256": "55eb6d89d1dcefb50e8f51d42eba9597f97521e573549108a2cfc5c3be856fa8",
+      "size_bytes": 33
+    }
+  ],
+  "manifest_sha256": "34e26b0e772f11ad188cca19313d18c41e6c6be3969ff68c12031cbf97eeb926"
+}

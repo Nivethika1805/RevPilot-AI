@@ -1,0 +1,11 @@
+deal_code,name,account_name,value,stage,status,close_date,tracks_next_steps
+DL-1001,Global Fleet Intelligence Expansion,Northwind Logistics Demo,240000.0,Negotiation,open,2026-11-07,true
+DL-1002,Clinical Trial Workflow Automation,Apex Global BioTech,175000.0,Proposal,open,2026-12-04,true
+DL-1003,Enterprise Telemetry Infrastructure,Acme Precision Cloud,125000.0,Proposal,open,2026-11-24,true
+DL-1004,Securities Data Compliance Suite,Vanguard Financial Services,85000.0,Discovery,open,2026-12-19,true
+DL-1005,Hospital Network EHR Bridge,Starlight Health Network,195000.0,Legal/Review,open,2026-11-09,true
+DL-1006,Zero-Trust Perimeter Annual Renewal,CyberShield Defense,310000.0,Legal/Review,open,2026-11-01,true
+DL-1007,Store Inventory Tracking POC,Nexus Retail Systems,45000.0,Discovery,open,2026-12-09,false
+DL-1099,Cross-Border Supply Chain AI,Beacon Freight Solutions,165000.0,Discovery,open,2026-12-15,true
+DL-1099,Cross-Border Supply Chain AI,Beacon Freight Solutions,165000.0,Discovery,open,2026-12-15,true
+,,,0.0,Discovery,open,2026-12-01,true

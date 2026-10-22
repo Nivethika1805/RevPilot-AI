@@ -1,0 +1,16 @@
+# RevPilot AI — Synthetic Seed Scenarios & Test Fixtures
+
+All records in this dataset are strictly synthetic, generated for evidence-driven revenue intelligence evaluation. Fictional entities are used exclusively.
+
+| Scenario ID | Primary Record ID | Entity / Deal Name | Key Signals / Characteristics | Expected Risk Index / Routing Outcome | Source Evidence References |
+|---|---|---|---|---|---|
+| **SC-01: High-Value Stalled on Pricing** | `DL-1001` | Global Fleet Intelligence Expansion ($240,000) | `UNRESOLVED_PRICING_OBJECTION` (25 pts), `NO_RECENT_CUSTOMER_RESPONSE` (20 pts), `MISSING_NEXT_STEP` (15 pts), `APPROACHING_DEADLINE` (15 pts) | **Critical Risk (75 / 100)** | `CALL-2043#L2-L4`, `ACT-1011`, `ACT-1012` |
+| **SC-02: Stalled Deal with Postponements** | `DL-1002` | Clinical Trial Workflow Automation ($175,000) | `REPEATED_POSTPONEMENT` (3 postponements in last 45d, 15 pts), `NO_RECENT_CUSTOMER_RESPONSE` (20 pts), `MISSING_DECISION_MAKER` (10 pts) | **High Risk (60 / 100)** | `ACT-1021`, `ACT-1022`, `ACT-1023` |
+| **SC-03: Healthy Deal Benchmark** | `DL-1003` | Enterprise Telemetry Infrastructure ($110,000) | Active replies (2 days ago), confirmed scheduled milestone, 0 open objections | **Low Risk (0 / 100)** | `ACT-1031`, `ACT-1032` |
+| **SC-04: Medium Risk Technical Concern** | `DL-1004` | Securities Data Compliance Suite ($85,000) | `UNRESOLVED_PRODUCT_OR_IMPLEMENTATION_CONCERN` (15 pts, SOC2 compliance) | **Medium Risk (15 / 100)** | `CALL-2046#L2` |
+| **SC-05: Manual Correction & Provenance Conflict** | `DL-1005` | Hospital Network EHR Bridge ($195,000) | Seeded with manual override on `stage="Negotiation"` (source baseline: `"Proposal"`). Re-import of `deals_v2.csv` attempts stage update to `"Legal/Review"`. | **Surfaces as Pending Field Conflict**; manual correction preserved | Field Provenance ID for `DL-1005:stage` |
+| **SC-06: Urgent Renewal with Approaching Deadline** | `DL-1006` | Zero-Trust Perimeter Annual Renewal ($310,000) | Renewal deadline in 12 days, `APPROACHING_DEADLINE` (15 pts), `NO_RECENT_CUSTOMER_RESPONSE` (20 pts) | **High Risk (50 / 100)** | `ACT-1061`, `ACT-1062` |
+| **SC-07: Incomplete Tracking (Unknown != Risk)** | `DL-1007` | Store Inventory Tracking POC ($45,000) | `source_tracks_next_steps = False`, `decision_maker_known = None`. Evaluates to `unknown` (0 pts) and lowers Completeness % | **Low Risk (0 / 100)**, Completeness: **75.0%** | CRM Flag: `tracks_next_steps=False` |
+| **SC-08: Difficult Routing Decision (Precedence)** | `EMAIL-2044` | Urgent Pricing Redline Email (`DL-1001`) | Matches both 'High Urgency Pricing Escalation' (order 1, spec 2) and 'Standard Pricing Review' (order 5, spec 1). | **Winner:** Marcus Vance (Order 1); **Rejected:** Elena Rostova (Order 5) | `EMAIL-2044`, RoutingDecision record |
+| **SC-09: Ambiguous Routing (Review Queue)** | `CALL-2045` | Ambiguous Contract Terms (`DL-1005`) | Matches 'Ambiguous Branch Alpha' and 'Ambiguous Branch Beta' (both order 10, specificity 1, conflicting owners). | **Status: `unassigned_review`** | `CALL-2045`, Review Queue ID |
+| **SC-10: Urgent Unassigned Conversation** | `CALL-2047` | Urgent Customer Commitment (`DL-1006`) | `assigned_user_id = None`, `urgency = "critical"`, routed to review queue. | **Surfaces in Findings Report** | `CALL-2047`, Review Queue ID |

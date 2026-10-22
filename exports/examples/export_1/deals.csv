@@ -1,0 +1,21 @@
+deal_code,name,account_name,value,currency,stage,status,risk_score,risk_category,expected_close_date,created_at
+DL-1001,Global Fleet Intelligence Expansion,Northwind Logistics Demo,240000.0,USD,Negotiation,open,70.0,High,2026-11-07T00:00:00,2026-10-22T19:28:17.994994
+DL-1002,Clinical Trial Workflow Automation,Apex Global BioTech,175000.0,USD,Proposal,open,40.0,Medium,2026-12-04T00:00:00,2026-10-22T19:28:17.997620
+DL-1003,Enterprise Telemetry Infrastructure,Acme Precision Cloud,110000.0,USD,Proposal,open,35.0,Medium,2026-11-24T00:00:00,2026-10-22T19:28:18.000985
+DL-1004,Securities Data Compliance Suite,Vanguard Financial Services,85000.0,USD,Discovery,open,50.0,High,2026-12-19T00:00:00,2026-10-22T19:28:18.002697
+DL-1005,Hospital Network EHR Bridge,Starlight Health Network,195000.0,USD,Negotiation,open,50.0,High,2026-11-09T00:00:00,2026-10-22T19:28:18.004290
+DL-1006,Zero-Trust Perimeter Annual Renewal,CyberShield Defense,310000.0,USD,Legal/Review,open,50.0,High,2026-11-01T00:00:00,2026-10-22T19:28:18.005862
+DL-1007,Store Inventory Tracking POC,Nexus Retail Systems,45000.0,USD,Discovery,open,35.0,Medium,2026-12-09T00:00:00,2026-10-22T19:28:18.008015
+DL-1008,Grid Optimization Phase 2,Zephyr Green Energy,130000.0,USD,Proposal,open,35.0,Medium,2026-11-29T00:00:00,2026-10-22T19:28:18.010273
+DL-1009,Smart Factory Predictive Maintenance,OmniCorp Manufacturing,220000.0,USD,Negotiation,open,50.0,High,2026-11-14T00:00:00,2026-10-22T19:28:18.016605
+DL-1010,Video Ingestion Platform Upgrade,Horizon Media Group,95000.0,USD,Discovery,open,45.0,Medium,2026-12-24T00:00:00,2026-10-22T19:28:18.018326
+DL-1011,Edge CDN Gateway Deployment,Atlas Cloud Infrastructure,160000.0,USD,Proposal,open,65.0,High,2026-11-19T00:00:00,2026-10-22T19:28:18.019867
+DL-1012,Port Logistics Telematics Engine,Beacon Freight Solutions,78000.0,USD,Discovery,open,35.0,Medium,2026-12-14T00:00:00,2026-10-22T19:28:18.021361
+DL-1013,Cold Chain Sensor Expansion,Northwind Logistics Demo,145000.0,USD,Negotiation,open,50.0,High,2026-11-04T00:00:00,2026-10-22T19:28:18.022985
+DL-1014,Drug Discovery Pipeline Compute,Apex Global BioTech,350000.0,USD,Legal/Review,open,50.0,High,2026-10-30T00:00:00,2026-10-22T19:28:18.024384
+DL-1015,Real-time Telemetry Gateway,Acme Precision Cloud,65000.0,USD,Closed,won,35.0,Medium,2026-10-10T00:00:00,2026-10-22T19:28:18.025787
+DL-1016,Mortgage Processing Engine,Vanguard Financial Services,180000.0,USD,Proposal,open,35.0,Medium,2026-11-29T00:00:00,2026-10-22T19:28:18.027331
+DL-1017,Patient Portal Identity Verification,Starlight Health Network,90000.0,USD,Closed,lost,45.0,Medium,2026-10-15T00:00:00,2026-10-22T19:28:18.029173
+DL-1018,Threat Hunting Appliance Pilot,CyberShield Defense,125000.0,USD,Discovery,open,35.0,Medium,2026-12-04T00:00:00,2026-10-22T19:28:18.030661
+DL-1019,Point-of-Sale Integration Hub,Nexus Retail Systems,115000.0,USD,Proposal,open,50.0,High,2026-11-24T00:00:00,2026-10-22T19:28:18.032132
+DL-1020,Wind Turbine Diagnostic Feeds,Zephyr Green Energy,210000.0,USD,Negotiation,open,40.0,Medium,2026-11-03T00:00:00,2026-10-22T19:28:18.033488

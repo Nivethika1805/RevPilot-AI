@@ -1,0 +1,55 @@
+deal_code,title,reason,priority,status,due_date
+DL-1001,Schedule Customer Follow-up & Re-engagement for Global Fleet Intelligence Expansion,Last customer interaction was 19 days ago (threshold: 14 days).,high,open,2026-10-22T00:00:00
+DL-1001,Review Pricing Proposal & Commercials for Global Fleet Intelligence Expansion,6 open pricing objection(s) without subsequent resolving evidence.,critical,open,2026-10-21T00:00:00
+DL-1001,Escalate Approaching Deadline & Executive Alignment on Global Fleet Intelligence Expansion,Close/Renewal deadline is 18 days away with unresolved risk factors detected.,critical,open,2026-10-21T00:00:00
+DL-1001,Review and address repeated customer concern,Customer repeated the same concern (unresolved pricing objection) across multiple conversations.,medium,open,2026-10-22T00:00:00
+DL-1002,Qualify Schedule & Re-anchor Value with Buyer on Clinical Trial Workflow Automation,Customer postponed 3 scheduled meetings in the last 45 days.,medium,open,2026-10-23T00:00:00
+DL-1002,Confirm Next Steps & Milestone with Buyer on Clinical Trial Workflow Automation,No upcoming activity scheduled in CRM and no active follow-up commitments recorded.,high,open,2026-10-21T00:00:00
+DL-1002,Identify & Map Economic Decision Maker for Clinical Trial Workflow Automation,CRM explicitly records that the economic decision maker has not been engaged.,medium,open,2026-10-24T00:00:00
+DL-1003,Review Pricing Proposal & Commercials for Enterprise Telemetry Infrastructure,2 open pricing objection(s) without subsequent resolving evidence.,critical,open,2026-10-21T00:00:00
+DL-1003,Review and address repeated customer concern,Customer repeated the same concern (unresolved pricing objection) across multiple conversations.,medium,open,2026-10-22T00:00:00
+DL-1004,Review Pricing Proposal & Commercials for Securities Data Compliance Suite,2 open pricing objection(s) without subsequent resolving evidence.,critical,open,2026-10-21T00:00:00
+DL-1004,Arrange Technical Validation / Product Deep-Dive for Securities Data Compliance Suite,4 open technical or implementation objection(s) logged.,high,open,2026-10-23T00:00:00
+DL-1004,Review and address repeated customer concern,"Customer repeated the same concern (unresolved product technical objection, unresolved pricing objection) across multiple conversations.",medium,open,2026-10-22T00:00:00
+DL-1005,Review Pricing Proposal & Commercials for Hospital Network EHR Bridge,3 open pricing objection(s) without subsequent resolving evidence.,critical,open,2026-10-21T00:00:00
+DL-1005,Escalate Approaching Deadline & Executive Alignment on Hospital Network EHR Bridge,Close/Renewal deadline is 20 days away with unresolved risk factors detected.,critical,open,2026-10-21T00:00:00
+DL-1005,Review and address repeated customer concern,Customer repeated the same concern (unresolved pricing objection) across multiple conversations.,medium,open,2026-10-22T00:00:00
+DL-1006,Review Pricing Proposal & Commercials for Zero-Trust Perimeter Annual Renewal,2 open pricing objection(s) without subsequent resolving evidence.,critical,open,2026-10-21T00:00:00
+DL-1006,Escalate Approaching Deadline & Executive Alignment on Zero-Trust Perimeter Annual Renewal,Close/Renewal deadline is 12 days away with unresolved risk factors detected.,critical,open,2026-10-21T00:00:00
+DL-1006,Review and address repeated customer concern,Customer repeated the same concern (unresolved pricing objection) across multiple conversations.,medium,open,2026-10-22T00:00:00
+DL-1007,Review Pricing Proposal & Commercials for Store Inventory Tracking POC,2 open pricing objection(s) without subsequent resolving evidence.,critical,open,2026-10-21T00:00:00
+DL-1007,Review and address repeated customer concern,Customer repeated the same concern (unresolved pricing objection) across multiple conversations.,medium,open,2026-10-22T00:00:00
+DL-1008,Review Pricing Proposal & Commercials for Grid Optimization Phase 2,2 open pricing objection(s) without subsequent resolving evidence.,critical,open,2026-10-21T00:00:00
+DL-1008,Review and address repeated customer concern,Customer repeated the same concern (unresolved pricing objection) across multiple conversations.,medium,open,2026-10-22T00:00:00
+DL-1009,Review Pricing Proposal & Commercials for Smart Factory Predictive Maintenance,2 open pricing objection(s) without subsequent resolving evidence.,critical,open,2026-10-21T00:00:00
+DL-1009,Escalate Approaching Deadline & Executive Alignment on Smart Factory Predictive Maintenance,Close/Renewal deadline is 25 days away with unresolved risk factors detected.,critical,open,2026-10-21T00:00:00
+DL-1009,Review and address repeated customer concern,Customer repeated the same concern (unresolved pricing objection) across multiple conversations.,medium,open,2026-10-22T00:00:00
+DL-1010,Review Pricing Proposal & Commercials for Video Ingestion Platform Upgrade,2 open pricing objection(s) without subsequent resolving evidence.,critical,open,2026-10-21T00:00:00
+DL-1010,Review and address repeated customer concern,Customer repeated the same concern (unresolved pricing objection) across multiple conversations.,medium,open,2026-10-22T00:00:00
+DL-1010,Identify & Map Economic Decision Maker for Video Ingestion Platform Upgrade,CRM explicitly records that the economic decision maker has not been engaged.,medium,open,2026-10-24T00:00:00
+DL-1011,Review Pricing Proposal & Commercials for Edge CDN Gateway Deployment,2 open pricing objection(s) without subsequent resolving evidence.,critical,open,2026-10-21T00:00:00
+DL-1011,Arrange Technical Validation / Product Deep-Dive for Edge CDN Gateway Deployment,2 open technical or implementation objection(s) logged.,high,open,2026-10-23T00:00:00
+DL-1011,Escalate Approaching Deadline & Executive Alignment on Edge CDN Gateway Deployment,Close/Renewal deadline is 30 days away with unresolved risk factors detected.,critical,open,2026-10-21T00:00:00
+DL-1011,Review and address repeated customer concern,"Customer repeated the same concern (unresolved implementation objection, unresolved pricing objection) across multiple conversations.",medium,open,2026-10-22T00:00:00
+DL-1012,Review Pricing Proposal & Commercials for Port Logistics Telematics Engine,2 open pricing objection(s) without subsequent resolving evidence.,critical,open,2026-10-21T00:00:00
+DL-1012,Review and address repeated customer concern,Customer repeated the same concern (unresolved pricing objection) across multiple conversations.,medium,open,2026-10-22T00:00:00
+DL-1013,Review Pricing Proposal & Commercials for Cold Chain Sensor Expansion,2 open pricing objection(s) without subsequent resolving evidence.,critical,open,2026-10-21T00:00:00
+DL-1013,Escalate Approaching Deadline & Executive Alignment on Cold Chain Sensor Expansion,Close/Renewal deadline is 15 days away with unresolved risk factors detected.,critical,open,2026-10-21T00:00:00
+DL-1013,Review and address repeated customer concern,Customer repeated the same concern (unresolved pricing objection) across multiple conversations.,medium,open,2026-10-22T00:00:00
+DL-1014,Review Pricing Proposal & Commercials for Drug Discovery Pipeline Compute,2 open pricing objection(s) without subsequent resolving evidence.,critical,open,2026-10-21T00:00:00
+DL-1014,Escalate Approaching Deadline & Executive Alignment on Drug Discovery Pipeline Compute,Close/Renewal deadline is 10 days away with unresolved risk factors detected.,critical,open,2026-10-21T00:00:00
+DL-1014,Review and address repeated customer concern,Customer repeated the same concern (unresolved pricing objection) across multiple conversations.,medium,open,2026-10-22T00:00:00
+DL-1015,Review Pricing Proposal & Commercials for Real-time Telemetry Gateway,2 open pricing objection(s) without subsequent resolving evidence.,critical,open,2026-10-21T00:00:00
+DL-1015,Review and address repeated customer concern,Customer repeated the same concern (unresolved pricing objection) across multiple conversations.,medium,open,2026-10-22T00:00:00
+DL-1016,Review Pricing Proposal & Commercials for Mortgage Processing Engine,2 open pricing objection(s) without subsequent resolving evidence.,critical,open,2026-10-21T00:00:00
+DL-1016,Review and address repeated customer concern,Customer repeated the same concern (unresolved pricing objection) across multiple conversations.,medium,open,2026-10-22T00:00:00
+DL-1017,Review Pricing Proposal & Commercials for Patient Portal Identity Verification,2 open pricing objection(s) without subsequent resolving evidence.,critical,open,2026-10-21T00:00:00
+DL-1017,Review and address repeated customer concern,Customer repeated the same concern (unresolved pricing objection) across multiple conversations.,medium,open,2026-10-22T00:00:00
+DL-1017,Identify & Map Economic Decision Maker for Patient Portal Identity Verification,CRM explicitly records that the economic decision maker has not been engaged.,medium,open,2026-10-24T00:00:00
+DL-1018,Review Pricing Proposal & Commercials for Threat Hunting Appliance Pilot,2 open pricing objection(s) without subsequent resolving evidence.,critical,open,2026-10-21T00:00:00
+DL-1018,Review and address repeated customer concern,Customer repeated the same concern (unresolved pricing objection) across multiple conversations.,medium,open,2026-10-22T00:00:00
+DL-1019,Review Pricing Proposal & Commercials for Point-of-Sale Integration Hub,2 open pricing objection(s) without subsequent resolving evidence.,critical,open,2026-10-21T00:00:00
+DL-1019,Arrange Technical Validation / Product Deep-Dive for Point-of-Sale Integration Hub,2 open technical or implementation objection(s) logged.,high,open,2026-10-23T00:00:00
+DL-1019,Review and address repeated customer concern,"Customer repeated the same concern (unresolved product technical objection, unresolved pricing objection) across multiple conversations.",medium,open,2026-10-22T00:00:00
+DL-1020,Review Pricing Proposal & Commercials for Wind Turbine Diagnostic Feeds,1 open pricing objection(s) without subsequent resolving evidence.,critical,open,2026-10-21T00:00:00
+DL-1020,Escalate Approaching Deadline & Executive Alignment on Wind Turbine Diagnostic Feeds,Close/Renewal deadline is 14 days away with unresolved risk factors detected.,critical,open,2026-10-21T00:00:00
