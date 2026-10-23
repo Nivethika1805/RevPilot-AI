@@ -50,3 +50,8 @@ exports/runtime/
 *.swo
 .DS_Store
 Thumbs.db
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
