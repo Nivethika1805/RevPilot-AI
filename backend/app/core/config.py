@@ -24,6 +24,18 @@ class Settings(BaseSettings):
     LLM_PROVIDER: str = "none"
 
     @property
+    def effective_database_url(self) -> str:
+        if os.environ.get("VERCEL") and self.DATABASE_URL.startswith("sqlite:///."):
+            return "sqlite:////tmp/revpilot.db"
+        return self.DATABASE_URL
+
+    @property
+    def effective_exports_dir(self) -> str:
+        if os.environ.get("VERCEL") and (self.EXPORTS_DIR.startswith("./") or self.EXPORTS_DIR.startswith("../")):
+            return "/tmp/exports/runtime"
+        return self.EXPORTS_DIR
+
+    @property
     def cors_origin_list(self) -> List[str]:
         return [origin.strip() for origin in self.CORS_ORIGINS.split(",") if origin.strip()]
 

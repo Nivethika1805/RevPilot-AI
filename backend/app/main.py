@@ -30,20 +30,18 @@ class RequestIdMiddleware(BaseHTTPMiddleware):
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Ensure tables exist
-    Base.metadata.create_all(bind=engine)
-    # Ensure export directory exists
-    os.makedirs(settings.EXPORTS_DIR, exist_ok=True)
-    # Auto-seed if empty
-    db = SessionLocal()
+    # Ensure tables exist and database is seeded
     try:
-        from app.models.entities import User
-        if db.query(User).count() == 0:
-            logger.info("Initializing synthetic seed dataset...")
-            seed_database(db)
-            logger.info("Synthetic seed completed.")
-    finally:
-        db.close()
+        from app.core.database import init_db
+        init_db()
+    except Exception as e:
+        logger.error(f"Lifespan database init failed: {e}")
+    
+    # Ensure export directory exists
+    try:
+        os.makedirs(settings.effective_exports_dir, exist_ok=True)
+    except Exception as e:
+        logger.warning(f"Could not create exports directory: {e}")
     yield
 
 app = FastAPI(
